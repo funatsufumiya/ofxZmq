@@ -198,7 +198,7 @@ long ofxZmqSocket::getReceiveHighWaterMark()
 
 bool ofxZmqSocket::hasWaitingMessage(long timeout_millis)
 {
-	return zmq::poll(items, 1, timeout_millis * 1000) > 0;
+	return zmq::poll(items, 1, timeout_millis) > 0;
 }
 
 bool ofxZmqSocket::getNextMessage(string &data)
