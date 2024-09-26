@@ -1,5 +1,7 @@
 # ofxZmq
 
+Using zmq 4.1.3. ZeroMQ (ZMQ) Library for OpenFrameworks. Tested on 0.11.0 - 0.12.0
+
 ## Usage
 
 ```cpp
