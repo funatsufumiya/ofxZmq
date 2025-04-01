@@ -39,6 +39,8 @@ Sketch*/
 /example*/config.make
 /example*/Project.xcconfig
 /example*/example-basic.xcodeproj
+/example*/.vscode
+/example*/*.code-workspace
 xcshareddata
 *.xcodeproj
 DerivedData
