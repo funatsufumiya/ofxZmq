@@ -7,11 +7,12 @@ ofxZmqPair client;
 void ofApp::setup()
 {
     ofSetLogLevel(OF_LOG_VERBOSE);
-	// start server
-	client.bind("tcp://*:9999");
+	// start client
+//	client.bind("tcp://*:9999");
+    client.connect("tcp://127.0.0.1:9999");
 	
 	// start client
-	client.connect("tcp://rpi3.local:9999");
+//	client.connect("tcp://rpi3.local:9999");
 }
 
 //--------------------------------------------------------------
